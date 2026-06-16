@@ -168,15 +168,23 @@ input[type="email"]:focus {
     }
 
     .logo {
-        width: 60px;
+        width: 180px;
         margin-bottom: 40px;
     }
 
     .form-group {
-        flex-direction: column;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    input[type="email"] {
+        flex: 0 1 auto;
+        padding: 12px 15px;
+        font-size: 13px;
     }
 
     .submit-btn {
-        width: 100%;
+        padding: 12px 25px;
+        font-size: 12px;
     }
 }
