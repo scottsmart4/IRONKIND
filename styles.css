@@ -177,7 +177,7 @@ input[type="email"]:focus {
 
 @media (max-width: 768px) {
     .container {
-        padding: 30px 20px;
+        padding: 20px 20px;
     }
 
     .content {
@@ -215,9 +215,9 @@ input[type="email"]:focus {
         position: static;
         width: 100%;
         max-width: 400px;
-        margin-top: 40px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
     }
 }
