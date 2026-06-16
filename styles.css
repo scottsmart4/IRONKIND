@@ -90,10 +90,13 @@ h1 {
 .bottom-image {
     width: 300px;
     height: auto;
-    display: block;
     position: fixed;
     bottom: 40px;
     right: 40px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    z-index: 10;
 }
 
 @media (max-width: 768px) {
