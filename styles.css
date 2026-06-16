@@ -88,10 +88,21 @@ h1 {
 }
 
 .bottom-image {
-    width: 100%;
-    max-width: 500px;
+    width: 300px;
     height: auto;
     display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+@media (max-width: 768px) {
+    .bottom-image {
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin-top: 40px;
+    }
 }
 
 .form-group {
