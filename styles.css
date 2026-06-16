@@ -83,8 +83,15 @@ h1 {
     font-size: 12px;
     font-weight: 500;
     opacity: 0.8;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     letter-spacing: 0.5px;
+}
+
+.bottom-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
 }
 
 .form-group {
