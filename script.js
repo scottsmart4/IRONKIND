@@ -25,7 +25,7 @@ form.addEventListener('submit', async (e) => {
             body: formData
         });
 
-        showMessage('Thanks! Check your email for your 20% off code.', 'success');
+        showMessage('Success! We will send your code to you when we launch.', 'success');
         emailInput.value = '';
     } catch (error) {
         console.error('Error:', error);
@@ -36,10 +36,4 @@ form.addEventListener('submit', async (e) => {
 function showMessage(message, type) {
     formMessage.textContent = message;
     formMessage.className = `form-message ${type}`;
-
-    if (type === 'success') {
-        setTimeout(() => {
-            formMessage.textContent = '';
-        }, 5000);
-    }
 }
