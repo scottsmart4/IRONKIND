@@ -16,17 +16,17 @@ form.addEventListener('submit', async (e) => {
     }
 
     try {
+        const formData = new FormData();
+        formData.append('email', email);
+
         const response = await fetch(SCRIPT_URL, {
             method: 'POST',
-            body: new FormData(form)
+            mode: 'no-cors',
+            body: formData
         });
 
-        if (response.ok) {
-            showMessage('Thanks! Check your email for your 20% off code.', 'success');
-            emailInput.value = '';
-        } else {
-            showMessage('Something went wrong. Please try again.', 'error');
-        }
+        showMessage('Thanks! Check your email for your 20% off code.', 'success');
+        emailInput.value = '';
     } catch (error) {
         console.error('Error:', error);
         showMessage('Unable to submit. Please try again.', 'error');
