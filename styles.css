@@ -210,4 +210,14 @@ input[type="email"]:focus {
         padding: 14px 20px;
         font-size: 14px;
     }
+
+    .bottom-image {
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
 }
