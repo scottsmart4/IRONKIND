@@ -3,7 +3,7 @@ const emailInput = document.getElementById('email');
 const formMessage = document.getElementById('formMessage');
 
 // Google Apps Script deployment URL
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzPzPa3tsz8Rf-RKw1BsPxmOgRAUJ6tD9nGWZIkqHdJujgFqaFjHz-6NLx7NfCK5osJeA/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzCZfU9-kTl5lwr5FGfqqQ41v1HhqzYJqaU0Xnb3A5ufcuE6T7Qe1xmJZybbVVPwNxJ/exec';
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
