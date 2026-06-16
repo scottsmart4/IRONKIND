@@ -44,7 +44,7 @@ body {
 }
 
 .logo {
-    width: 250px;
+    width: 75px;
     height: auto;
     margin-bottom: auto;
     display: block;
@@ -83,7 +83,7 @@ h1 {
     font-size: 12px;
     font-weight: 500;
     opacity: 0.8;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     letter-spacing: 0.5px;
 }
 
