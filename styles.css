@@ -253,6 +253,9 @@ input[type="email"]:focus {
     }
 
     .footnote {
-        display: none;
+        position: fixed;
+        bottom: 40px;
+        left: 40px;
+        margin: 0;
     }
 }
